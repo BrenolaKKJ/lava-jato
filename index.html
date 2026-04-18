@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Brilho Rápido</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🚗 Lava Jato Brilho Rápido</h1>
+
+  <div class="form">
+    <input type="text" id="cliente" placeholder="Nome do cliente">
+    
+    <select id="servico">
+      <option value="">Selecione o serviço</option>
+      <option value="Lavagem simples">Lavagem simples</option>
+      <option value="Lavagem completa">Lavagem completa</option>
+      <option value="Com cera">Com cera</option>
+    </select>
+
+    <button onclick="adicionarCarro()">Adicionar</button>
+  </div>
+
+  <h2>Atendimentos</h2>
+  <ul id="lista"></ul>
+
+  <p>Total de carros: <span id="total">0</span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
